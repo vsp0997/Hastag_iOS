@@ -28,6 +28,9 @@
 		240B94312C539CB500C0CFAB /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240B94302C539CB500C0CFAB /* SettingsTableViewCell.swift */; };
 		240B94342C53BFFE00C0CFAB /* PrivacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240B94332C53BFFE00C0CFAB /* PrivacyViewController.swift */; };
 		240B94362C53D4B100C0CFAB /* StoryboardFirst.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 240B94352C53D4B100C0CFAB /* StoryboardFirst.storyboard */; };
+		248DCF152C54CF4E003AD226 /* TagsLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248DCF142C54CF4E003AD226 /* TagsLogViewController.swift */; };
+		248DCF172C54CFA4003AD226 /* TagsLogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248DCF162C54CFA4003AD226 /* TagsLogTableViewCell.swift */; };
+		248DCF1A2C54D0BC003AD226 /* AllTagsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248DCF192C54D0BC003AD226 /* AllTagsViewController.swift */; };
 		24CDB1F52C541F04004F27EF /* TrendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CDB1F42C541F04004F27EF /* TrendsViewController.swift */; };
 		24CDB1F72C541F76004F27EF /* TrendsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CDB1F62C541F76004F27EF /* TrendsTableViewCell.swift */; };
 		24CDB1FA2C543821004F27EF /* CarrotsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CDB1F92C543821004F27EF /* CarrotsViewController.swift */; };
@@ -58,6 +61,9 @@
 		240B94302C539CB500C0CFAB /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
 		240B94332C53BFFE00C0CFAB /* PrivacyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyViewController.swift; sourceTree = "<group>"; };
 		240B94352C53D4B100C0CFAB /* StoryboardFirst.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StoryboardFirst.storyboard; sourceTree = "<group>"; };
+		248DCF142C54CF4E003AD226 /* TagsLogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsLogViewController.swift; sourceTree = "<group>"; };
+		248DCF162C54CFA4003AD226 /* TagsLogTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsLogTableViewCell.swift; sourceTree = "<group>"; };
+		248DCF192C54D0BC003AD226 /* AllTagsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTagsViewController.swift; sourceTree = "<group>"; };
 		24CDB1F42C541F04004F27EF /* TrendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendsViewController.swift; sourceTree = "<group>"; };
 		24CDB1F62C541F76004F27EF /* TrendsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendsTableViewCell.swift; sourceTree = "<group>"; };
 		24CDB1F92C543821004F27EF /* CarrotsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrotsViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +103,8 @@
 				240B93FF2C52C63F00C0CFAB /* AppDelegate.swift */,
 				240B94012C52C63F00C0CFAB /* SceneDelegate.swift */,
 				240B94032C52C63F00C0CFAB /* ViewController.swift */,
+				248DCF182C54D098003AD226 /* AllTags */,
+				248DCF132C54CF33003AD226 /* TagsLog */,
 				24CDB1F82C543806004F27EF /* Carrots */,
 				24CDB1F32C541EEF004F27EF /* Trends */,
 				240B94322C53BF9E00C0CFAB /* Privacy */,
@@ -152,6 +160,23 @@
 				240B94332C53BFFE00C0CFAB /* PrivacyViewController.swift */,
 			);
 			path = Privacy;
+			sourceTree = "<group>";
+		};
+		248DCF132C54CF33003AD226 /* TagsLog */ = {
+			isa = PBXGroup;
+			children = (
+				248DCF142C54CF4E003AD226 /* TagsLogViewController.swift */,
+				248DCF162C54CFA4003AD226 /* TagsLogTableViewCell.swift */,
+			);
+			path = TagsLog;
+			sourceTree = "<group>";
+		};
+		248DCF182C54D098003AD226 /* AllTags */ = {
+			isa = PBXGroup;
+			children = (
+				248DCF192C54D0BC003AD226 /* AllTagsViewController.swift */,
+			);
+			path = AllTags;
 			sourceTree = "<group>";
 		};
 		24CDB1F32C541EEF004F27EF /* Trends */ = {
@@ -260,10 +285,13 @@
 				24CDB1FA2C543821004F27EF /* CarrotsViewController.swift in Sources */,
 				24CDB1F72C541F76004F27EF /* TrendsTableViewCell.swift in Sources */,
 				24CDB1FC2C54384D004F27EF /* CarrotsTableViewCell.swift in Sources */,
+				248DCF152C54CF4E003AD226 /* TagsLogViewController.swift in Sources */,
 				240B94342C53BFFE00C0CFAB /* PrivacyViewController.swift in Sources */,
 				24CDB1F52C541F04004F27EF /* TrendsViewController.swift in Sources */,
 				240B94002C52C63F00C0CFAB /* AppDelegate.swift in Sources */,
 				240B942E2C539C0400C0CFAB /* SettingsViewController.swift in Sources */,
+				248DCF1A2C54D0BC003AD226 /* AllTagsViewController.swift in Sources */,
+				248DCF172C54CFA4003AD226 /* TagsLogTableViewCell.swift in Sources */,
 				240B94022C52C63F00C0CFAB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
