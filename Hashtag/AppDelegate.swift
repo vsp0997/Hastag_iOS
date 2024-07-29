@@ -23,8 +23,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             NSAttributedString.Key.foregroundColor: UIColor.white,
             NSAttributedString.Key.font: UIFont.Arimo.arimoBold.size(18)
         ]
-        let tabBarAppearance = UITabBar.appearance()
-        tabBarAppearance.barTintColor = UIColor.appDarkGray
+        let tabBarAppearance = UITabBarAppearance()
+        tabBarAppearance.backgroundColor = UIColor.appDarkGray
+        tabBarAppearance.stackedLayoutAppearance.normal.iconColor = UIColor.white
+        tabBarAppearance.stackedLayoutAppearance.selected.iconColor = UIColor.appYellow
+        tabBarAppearance.stackedLayoutAppearance.normal.titleTextAttributes = [
+            .foregroundColor: UIColor.white,
+            .font: UIFont.Arimo.regular.size(10)
+        ]
+        tabBarAppearance.stackedLayoutAppearance.selected.titleTextAttributes = [
+            .foregroundColor: UIColor.appYellow,
+            .font: UIFont.Arimo.regular.size(10)
+        ]
+        let tabBar = UITabBar.appearance()
+        tabBar.standardAppearance = tabBarAppearance
+        tabBar.scrollEdgeAppearance = tabBarAppearance
         return true
     }
     

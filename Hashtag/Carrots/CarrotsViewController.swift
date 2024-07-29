@@ -13,6 +13,9 @@ class CarrotsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    @objc func handleTap(_ sender: UITapGestureRecognizer) {
+        print("View was tapped!")
+    }
 }
 extension CarrotsViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -22,6 +25,7 @@ extension CarrotsViewController: UITableViewDelegate, UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: CarrotsTableViewCell.self), for: indexPath) as! CarrotsTableViewCell
         cell.cellView.layer.cornerRadius = 10
         cell.cellView.layer.masksToBounds = true
+        cell.delegate = self
         if indexPath.row == 0 {
             cell.cellView.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
         } else if indexPath.row == tableView.numberOfRows(inSection: indexPath.section) - 1 {
@@ -43,5 +47,13 @@ extension CarrotsViewController: UITableViewDelegate, UITableViewDataSource {
         let headerView = UIView()
         headerView.backgroundColor = .clear
         return headerView
+    }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print(indexPath.row.description)
+    }
+}
+extension CarrotsViewController: CustomCellDelegate {
+    func didTapButton(in cell: CarrotsTableViewCell) {
+        print("Hi")
     }
 }

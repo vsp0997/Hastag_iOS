@@ -26,15 +26,17 @@
 		24CDB1F72C541F76004F27EF /* TrendsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CDB1F62C541F76004F27EF /* TrendsTableViewCell.swift */; };
 		24CDB1FA2C543821004F27EF /* CarrotsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CDB1F92C543821004F27EF /* CarrotsViewController.swift */; };
 		24CDB1FC2C54384D004F27EF /* CarrotsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CDB1FB2C54384D004F27EF /* CarrotsTableViewCell.swift */; };
-		24EE6B162C57620700D6089D /* Arimo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24EE6B0E2C57620700D6089D /* Arimo-Regular.ttf */; };
-		24EE6B172C57620700D6089D /* Arimo-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24EE6B0F2C57620700D6089D /* Arimo-Medium.ttf */; };
-		24EE6B182C57620700D6089D /* Arimo-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24EE6B102C57620700D6089D /* Arimo-SemiBoldItalic.ttf */; };
-		24EE6B192C57620700D6089D /* Arimo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24EE6B112C57620700D6089D /* Arimo-Bold.ttf */; };
-		24EE6B1A2C57620700D6089D /* Arimo-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24EE6B122C57620700D6089D /* Arimo-BoldItalic.ttf */; };
-		24EE6B1B2C57620700D6089D /* Arimo-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24EE6B132C57620700D6089D /* Arimo-MediumItalic.ttf */; };
-		24EE6B1C2C57620700D6089D /* Arimo-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24EE6B142C57620700D6089D /* Arimo-Italic.ttf */; };
-		24EE6B1D2C57620700D6089D /* Arimo-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24EE6B152C57620700D6089D /* Arimo-SemiBold.ttf */; };
 		24EE6B202C57667B00D6089D /* GeneratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EE6B1F2C57667B00D6089D /* GeneratorViewController.swift */; };
+		24EE6B302C579C0900D6089D /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EE6B2F2C579C0900D6089D /* Extension.swift */; };
+		24EE6B422C579FA800D6089D /* Arimo-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24EE6B3A2C579FA800D6089D /* Arimo-MediumItalic.ttf */; };
+		24EE6B432C579FA800D6089D /* Arimo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24EE6B3B2C579FA800D6089D /* Arimo-Regular.ttf */; };
+		24EE6B442C579FA800D6089D /* Arimo-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24EE6B3C2C579FA800D6089D /* Arimo-SemiBoldItalic.ttf */; };
+		24EE6B452C579FA800D6089D /* Arimo-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24EE6B3D2C579FA800D6089D /* Arimo-SemiBold.ttf */; };
+		24EE6B462C579FA800D6089D /* Arimo-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24EE6B3E2C579FA800D6089D /* Arimo-Medium.ttf */; };
+		24EE6B472C579FA800D6089D /* Arimo-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24EE6B3F2C579FA800D6089D /* Arimo-Italic.ttf */; };
+		24EE6B482C579FA800D6089D /* Arimo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24EE6B402C579FA800D6089D /* Arimo-Bold.ttf */; };
+		24EE6B492C579FA800D6089D /* Arimo-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24EE6B412C579FA800D6089D /* Arimo-BoldItalic.ttf */; };
+		24EE6B4B2C579FB700D6089D /* Sarabun-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24EE6B4A2C579FB700D6089D /* Sarabun-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,15 +62,17 @@
 		24CDB1F62C541F76004F27EF /* TrendsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendsTableViewCell.swift; sourceTree = "<group>"; };
 		24CDB1F92C543821004F27EF /* CarrotsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrotsViewController.swift; sourceTree = "<group>"; };
 		24CDB1FB2C54384D004F27EF /* CarrotsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrotsTableViewCell.swift; sourceTree = "<group>"; };
-		24EE6B0E2C57620700D6089D /* Arimo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Arimo-Regular.ttf"; path = "../../../../../../../Downloads/Arimo/static/Arimo-Regular.ttf"; sourceTree = "<group>"; };
-		24EE6B0F2C57620700D6089D /* Arimo-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Arimo-Medium.ttf"; path = "../../../../../../../Downloads/Arimo/static/Arimo-Medium.ttf"; sourceTree = "<group>"; };
-		24EE6B102C57620700D6089D /* Arimo-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Arimo-SemiBoldItalic.ttf"; path = "../../../../../../../Downloads/Arimo/static/Arimo-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
-		24EE6B112C57620700D6089D /* Arimo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Arimo-Bold.ttf"; path = "../../../../../../../Downloads/Arimo/static/Arimo-Bold.ttf"; sourceTree = "<group>"; };
-		24EE6B122C57620700D6089D /* Arimo-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Arimo-BoldItalic.ttf"; path = "../../../../../../../Downloads/Arimo/static/Arimo-BoldItalic.ttf"; sourceTree = "<group>"; };
-		24EE6B132C57620700D6089D /* Arimo-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Arimo-MediumItalic.ttf"; path = "../../../../../../../Downloads/Arimo/static/Arimo-MediumItalic.ttf"; sourceTree = "<group>"; };
-		24EE6B142C57620700D6089D /* Arimo-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Arimo-Italic.ttf"; path = "../../../../../../../Downloads/Arimo/static/Arimo-Italic.ttf"; sourceTree = "<group>"; };
-		24EE6B152C57620700D6089D /* Arimo-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Arimo-SemiBold.ttf"; path = "../../../../../../../Downloads/Arimo/static/Arimo-SemiBold.ttf"; sourceTree = "<group>"; };
 		24EE6B1F2C57667B00D6089D /* GeneratorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratorViewController.swift; sourceTree = "<group>"; };
+		24EE6B2F2C579C0900D6089D /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		24EE6B3A2C579FA800D6089D /* Arimo-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arimo-MediumItalic.ttf"; sourceTree = "<group>"; };
+		24EE6B3B2C579FA800D6089D /* Arimo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arimo-Regular.ttf"; sourceTree = "<group>"; };
+		24EE6B3C2C579FA800D6089D /* Arimo-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arimo-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		24EE6B3D2C579FA800D6089D /* Arimo-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arimo-SemiBold.ttf"; sourceTree = "<group>"; };
+		24EE6B3E2C579FA800D6089D /* Arimo-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arimo-Medium.ttf"; sourceTree = "<group>"; };
+		24EE6B3F2C579FA800D6089D /* Arimo-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arimo-Italic.ttf"; sourceTree = "<group>"; };
+		24EE6B402C579FA800D6089D /* Arimo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arimo-Bold.ttf"; sourceTree = "<group>"; };
+		24EE6B412C579FA800D6089D /* Arimo-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arimo-BoldItalic.ttf"; sourceTree = "<group>"; };
+		24EE6B4A2C579FB700D6089D /* Sarabun-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sarabun-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,14 +173,8 @@
 		24AA9D022C5501B200A42FE2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				24EE6B112C57620700D6089D /* Arimo-Bold.ttf */,
-				24EE6B122C57620700D6089D /* Arimo-BoldItalic.ttf */,
-				24EE6B142C57620700D6089D /* Arimo-Italic.ttf */,
-				24EE6B0F2C57620700D6089D /* Arimo-Medium.ttf */,
-				24EE6B132C57620700D6089D /* Arimo-MediumItalic.ttf */,
-				24EE6B0E2C57620700D6089D /* Arimo-Regular.ttf */,
-				24EE6B152C57620700D6089D /* Arimo-SemiBold.ttf */,
-				24EE6B102C57620700D6089D /* Arimo-SemiBoldItalic.ttf */,
+				24EE6B2E2C579BFD00D6089D /* Extension */,
+				24EE6B312C579F5600D6089D /* Font */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -205,6 +203,30 @@
 				24EE6B1F2C57667B00D6089D /* GeneratorViewController.swift */,
 			);
 			path = Generator;
+			sourceTree = "<group>";
+		};
+		24EE6B2E2C579BFD00D6089D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				24EE6B2F2C579C0900D6089D /* Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		24EE6B312C579F5600D6089D /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				24EE6B4A2C579FB700D6089D /* Sarabun-Regular.ttf */,
+				24EE6B402C579FA800D6089D /* Arimo-Bold.ttf */,
+				24EE6B412C579FA800D6089D /* Arimo-BoldItalic.ttf */,
+				24EE6B3F2C579FA800D6089D /* Arimo-Italic.ttf */,
+				24EE6B3E2C579FA800D6089D /* Arimo-Medium.ttf */,
+				24EE6B3A2C579FA800D6089D /* Arimo-MediumItalic.ttf */,
+				24EE6B3B2C579FA800D6089D /* Arimo-Regular.ttf */,
+				24EE6B3D2C579FA800D6089D /* Arimo-SemiBold.ttf */,
+				24EE6B3C2C579FA800D6089D /* Arimo-SemiBoldItalic.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,16 +289,17 @@
 			files = (
 				240B940C2C52C64000C0CFAB /* Assets.xcassets in Resources */,
 				240B94182C536FF500C0CFAB /* Color.xcassets in Resources */,
+				24EE6B422C579FA800D6089D /* Arimo-MediumItalic.ttf in Resources */,
+				24EE6B452C579FA800D6089D /* Arimo-SemiBold.ttf in Resources */,
+				24EE6B482C579FA800D6089D /* Arimo-Bold.ttf in Resources */,
 				240B941A2C5373C300C0CFAB /* Generator.xcassets in Resources */,
-				24EE6B1B2C57620700D6089D /* Arimo-MediumItalic.ttf in Resources */,
 				240B940F2C52C64000C0CFAB /* Base in Resources */,
-				24EE6B1A2C57620700D6089D /* Arimo-BoldItalic.ttf in Resources */,
-				24EE6B192C57620700D6089D /* Arimo-Bold.ttf in Resources */,
-				24EE6B1C2C57620700D6089D /* Arimo-Italic.ttf in Resources */,
-				24EE6B162C57620700D6089D /* Arimo-Regular.ttf in Resources */,
-				24EE6B172C57620700D6089D /* Arimo-Medium.ttf in Resources */,
-				24EE6B182C57620700D6089D /* Arimo-SemiBoldItalic.ttf in Resources */,
-				24EE6B1D2C57620700D6089D /* Arimo-SemiBold.ttf in Resources */,
+				24EE6B472C579FA800D6089D /* Arimo-Italic.ttf in Resources */,
+				24EE6B492C579FA800D6089D /* Arimo-BoldItalic.ttf in Resources */,
+				24EE6B432C579FA800D6089D /* Arimo-Regular.ttf in Resources */,
+				24EE6B442C579FA800D6089D /* Arimo-SemiBoldItalic.ttf in Resources */,
+				24EE6B462C579FA800D6089D /* Arimo-Medium.ttf in Resources */,
+				24EE6B4B2C579FB700D6089D /* Sarabun-Regular.ttf in Resources */,
 				240B94072C52C63F00C0CFAB /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,6 +318,7 @@
 				24CDB1FA2C543821004F27EF /* CarrotsViewController.swift in Sources */,
 				24CDB1F72C541F76004F27EF /* TrendsTableViewCell.swift in Sources */,
 				24CDB1FC2C54384D004F27EF /* CarrotsTableViewCell.swift in Sources */,
+				24EE6B302C579C0900D6089D /* Extension.swift in Sources */,
 				248DCF152C54CF4E003AD226 /* TagsLogViewController.swift in Sources */,
 				240B94342C53BFFE00C0CFAB /* PrivacyViewController.swift in Sources */,
 				24CDB1F52C541F04004F27EF /* TrendsViewController.swift in Sources */,

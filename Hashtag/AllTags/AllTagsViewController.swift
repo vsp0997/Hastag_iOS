@@ -11,12 +11,33 @@ class AllTagsViewController: UIViewController {
 
     @IBOutlet weak var txtView: UITextView!
     @IBOutlet weak var btnCopy: UIButton!
-    
+    var navTitle: String = ""
     override func viewDidLoad() {
         super.viewDidLoad()
         setUI()
     }
     private func setUI() {
-        txtView.font = UIFont.Arimo.regular.size(16)
+        self.title = navTitle
+        let text = txtView.text ?? ""
+        let attributedString = NSMutableAttributedString(string: text)
+        let paragraphStyle = NSMutableParagraphStyle()
+        paragraphStyle.lineSpacing = 5
+        attributedString.addAttribute(.paragraphStyle, value: paragraphStyle, range: NSMakeRange(0, attributedString.length))
+        txtView.attributedText = attributedString
+        txtView.font = UIFont.Sarabun.regular.size(16)
+        txtView.textColor = .white
+        addBackButton()
+    }
+    private func addBackButton() {
+        let backButton = UIButton(type: .system)
+        backButton.setImage(UIImage(named: "BackButtonIcon"), for: .normal)
+        backButton.setTitle("  History", for: .normal)
+        backButton.sizeToFit()
+        backButton.addTarget(self, action: #selector(backButtonTapped), for: .touchUpInside)
+        let backBarButtonItem = UIBarButtonItem(customView: backButton)
+        self.navigationItem.leftBarButtonItem = backBarButtonItem
+    }
+    @objc func backButtonTapped() {
+        self.navigationController?.popViewController(animated: true)
     }
 }

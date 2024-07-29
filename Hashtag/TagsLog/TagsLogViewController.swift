@@ -49,6 +49,7 @@ extension TagsLogViewController: UITableViewDelegate, UITableViewDataSource {
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let nextVC = storyboard?.instantiateViewController(withIdentifier: String(describing: AllTagsViewController.self)) as! AllTagsViewController
+        nextVC.navTitle = historyList[indexPath.row]
         navigationController?.pushViewController(nextVC, animated: true)
     }
 }
