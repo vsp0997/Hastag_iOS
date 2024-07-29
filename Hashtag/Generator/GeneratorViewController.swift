@@ -37,6 +37,12 @@ class GeneratorViewController: UIViewController {
         alertController.addAction(action1)
         alertController.addAction(action2)
         alertController.addAction(cancelAction)
+        
+        if let popoverController = alertController.popoverPresentationController, let sourceView = sender as? UIView {
+            popoverController.sourceView = sourceView
+            popoverController.sourceRect = sourceView.bounds
+            popoverController.permittedArrowDirections = .any
+        }
         present(alertController, animated: true, completion: nil)
     }
     private func setUI() {

@@ -35,8 +35,10 @@ extension SettingsViewController: UITableViewDelegate, UITableViewDataSource {
         return cell
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let nextVC = storyboard?.instantiateViewController(withIdentifier: String(describing: PrivacyViewController.self)) as! PrivacyViewController
-        navigationController?.pushViewController(nextVC, animated: true)
+        if indexPath.row == 0 {
+            let nextVC = storyboard?.instantiateViewController(withIdentifier: String(describing: PrivacyViewController.self)) as! PrivacyViewController
+            navigationController?.pushViewController(nextVC, animated: true)
+        }
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 50
