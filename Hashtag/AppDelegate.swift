@@ -25,10 +25,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         ]
         let tabBarAppearance = UITabBarAppearance()
         tabBarAppearance.backgroundColor = UIColor.appDarkGray
-        tabBarAppearance.stackedLayoutAppearance.normal.iconColor = UIColor.white
+        tabBarAppearance.stackedLayoutAppearance.normal.iconColor = UIColor.appGray
         tabBarAppearance.stackedLayoutAppearance.selected.iconColor = UIColor.appYellow
         tabBarAppearance.stackedLayoutAppearance.normal.titleTextAttributes = [
-            .foregroundColor: UIColor.white,
+            .foregroundColor: UIColor.appGray,
             .font: UIFont.Arimo.regular.size(10)
         ]
         tabBarAppearance.stackedLayoutAppearance.selected.titleTextAttributes = [
