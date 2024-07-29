@@ -292,18 +292,16 @@
                                                                 </label>
                                                             </subviews>
                                                         </stackView>
-                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tqX-rL-wVt">
+                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tqX-rL-wVt">
                                                             <rect key="frame" x="257" y="9.6666666666666643" width="80" height="28"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="28" id="i1t-PX-BD7"/>
                                                                 <constraint firstAttribute="width" constant="80" id="t7B-Tq-ShV"/>
                                                             </constraints>
-                                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="4"/>
                                                             <color key="tintColor" name="AppYellowColor"/>
                                                             <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                            <state key="normal" title="Top Up">
-                                                                <color key="titleColor" name="AppYellowColor"/>
-                                                            </state>
+                                                            <state key="normal" title="Top Up"/>
+                                                            <buttonConfiguration key="configuration" style="plain" title="Top Up"/>
                                                             <userDefinedRuntimeAttributes>
                                                                 <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
                                                                     <real key="value" value="1"/>
