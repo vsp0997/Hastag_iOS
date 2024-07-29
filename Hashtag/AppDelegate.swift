@@ -19,6 +19,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         appearance.shadowImage = UIImage()
         appearance.isTranslucent = true
         appearance.tintColor = .appGray
+        appearance.titleTextAttributes = [
+            NSAttributedString.Key.foregroundColor: UIColor.white,
+            NSAttributedString.Key.font: UIFont.Arimo.arimoBold.size(18)
+        ]
+        let tabBarAppearance = UITabBar.appearance()
+        tabBarAppearance.barTintColor = UIColor.appDarkGray
         return true
     }
     

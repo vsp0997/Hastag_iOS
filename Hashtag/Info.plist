@@ -4,7 +4,6 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
-		<string>Arimo-Bold.ttf</string>
 		<string>Arimo-BoldItalic.ttf</string>
 		<string>Arimo-Italic.ttf</string>
 		<string>Arimo-Medium.ttf</string>
@@ -12,6 +11,7 @@
 		<string>Arimo-Regular.ttf</string>
 		<string>Arimo-SemiBold.ttf</string>
 		<string>Arimo-SemiBoldItalic.ttf</string>
+		<string>Arimo-Bold.ttf</string>
 	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>

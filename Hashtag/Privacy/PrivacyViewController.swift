@@ -8,7 +8,9 @@
 import UIKit
 
 class PrivacyViewController: UIViewController {
+    @IBOutlet weak var txtView: UITextView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        txtView.font = UIFont.Arimo.regular.size(16)
     }
 }

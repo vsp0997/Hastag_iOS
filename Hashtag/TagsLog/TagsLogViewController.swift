@@ -10,28 +10,19 @@ import UIKit
 class TagsLogViewController: UIViewController {
     
     @IBOutlet weak var tblView: UITableView!
+    let historyList: [String] = ["Flowers (154)", "Coffee (77)", "Tomorrowland (55)", "Maldives (44)"]
     override func viewDidLoad() {
         super.viewDidLoad()
     }
 }
 extension TagsLogViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 4
+        return historyList.count
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: TagsLogTableViewCell.self), for: indexPath) as! TagsLogTableViewCell
-        switch indexPath.row {
-        case 0:
-            cell.lblTitle.text = "Flowers (154)"
-        case 1:
-            cell.lblTitle.text = "Coffee (77)"
-        case 2:
-            cell.lblTitle.text = "Tomorrowland (55)"
-        case 3:
-            cell.lblTitle.text = "Maldives (44)"
-        default:
-            break
-        }
+        cell.lblTitle.text = historyList[indexPath.row]
+        cell.lblTitle.font = UIFont.Arimo.regular.size(16)
         cell.cellView.layer.cornerRadius = 10
         cell.cellView.layer.masksToBounds = true
         if indexPath.row == 0 {

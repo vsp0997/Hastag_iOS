@@ -9,28 +9,18 @@ import UIKit
 
 class SettingsViewController: UIViewController {
     @IBOutlet weak var tblView: UITableView!
+    let settingList: [String] = ["Privacy Policy", "Support and Reviews", "Rate App", "Share App"]
     override func viewDidLoad() {
         super.viewDidLoad()
     }
 }
 extension SettingsViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 4
+        return settingList.count
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: SettingsTableViewCell.self), for: indexPath) as! SettingsTableViewCell
-        switch indexPath.row {
-        case 0:
-            cell.lblTitle.text = "Privacy Policy"
-        case 1:
-            cell.lblTitle.text = "Support and Reviews"
-        case 2:
-            cell.lblTitle.text = "Rate App"
-        case 3:
-            cell.lblTitle.text = "Share App"
-        default:
-            break
-        }
+        cell.lblTitle.text = settingList[indexPath.row]
         cell.cellView.layer.cornerRadius = 10
         cell.cellView.layer.masksToBounds = true
         if indexPath.row == 0 {

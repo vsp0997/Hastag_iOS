@@ -202,9 +202,8 @@ extension UIView {
         path.stroke()
     }
 }
-
 extension UIFont {
-    enum Arimo:String {
+    enum Arimo: String {
         case arimoBold = "Arimo-Bold"
         case arimoBoldItalic = "Arimo-BoldItalic"
         case arimoItalic = "Arimo-Italic"
