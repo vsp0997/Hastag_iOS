@@ -16,6 +16,9 @@ class AllTagsViewController: UIViewController {
         super.viewDidLoad()
         setUI()
     }
+    @IBAction func actionCopy(_ sender: Any) {
+        print("Copy")
+    }
     private func setUI() {
         self.title = navTitle
         let text = txtView.text ?? ""
@@ -26,6 +29,7 @@ class AllTagsViewController: UIViewController {
         txtView.attributedText = attributedString
         txtView.font = UIFont.Sarabun.regular.size(16)
         txtView.textColor = .white
+        btnCopy.titleLabel?.font = UIFont.Arimo.arimoBold.size(18)
         addBackButton()
     }
     private func addBackButton() {
